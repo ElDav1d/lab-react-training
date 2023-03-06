@@ -4,6 +4,7 @@ import data from './data/berlin.json';
 import IdCard from './components/IdCard';
 import Greetings from './components/Greetings';
 import LikeButton from './components/LikeButton';
+import Dice from './components/Dice';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
             <span>Françoise</span>
           </Greetings>
         </div> */}
-        <LikeButton />
+        {/* <LikeButton /> */}
+        <Dice />
       </div>
     </>
   );
